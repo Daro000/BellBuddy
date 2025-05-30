@@ -7,7 +7,10 @@ type Student = {
     present: boolean;
 };
 
-
+type Props = {
+    students: Student[];
+    togglePresence: (id: number) => void;
+};
 
 const StudentList = () => {
     return ();
